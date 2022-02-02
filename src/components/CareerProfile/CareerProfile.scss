@@ -1,0 +1,21 @@
+@import "../../global.scss";
+
+.careerprofile{
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+    .Name{
+        font-size: 60px;
+    }
+    .Occupation{
+        font-size: 20px;
+    }
+    .Summary{
+        font-size: 15px;
+        width: 80%;
+    }
+}
